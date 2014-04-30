@@ -9,7 +9,7 @@
     </style>
 
     <style name="Widget.Custom.PtrHeader" parent="android:Widget">
-        <item name="ptrHeaderBackground">@color/holo_dark_green</item>
+        <item name="ptrHeaderBackground">@color/re_green</item>
 
         <!-- This is commented out as you should not set this unless you know what you're doing -->
         <!-- <item name="ptrHeaderHeight"></item> -->
@@ -38,11 +38,31 @@
         <item name="spb_progressiveStart_speed">2</item>
         <item name="spb_progressiveStop_speed">3.4</item>
         <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>
+        <!-- <item name="spb_mirror_mode">true</item> orig-->
         <item name="spb_mirror_mode">false</item>
         <item name="spb_reversed">true</item>
         <item name="spb_colors">@array/gplus_colors</item>
         <item name="spb_progressiveStart_activated">true</item>
     </style>
+    
+     <style name="GPlusProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">12dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">0.7</item>
+        <item name="spb_interpolator">spb_interpolator_linear</item>
+        <item name="spb_colors">@array/gplus_colors</item>
+    </style>
+    
+      <style name="PocketProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">4dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">1</item>
+        <item name="android:interpolator">@anim/pocket_interpolator</item>
+        <item name="spb_colors">@array/pocket_bar_colors</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_generate_background_with_colors">false</item>
+    </style>
+    
     <!-- spb theme end -->
 
 </resources>

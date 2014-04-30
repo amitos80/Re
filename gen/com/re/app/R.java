@@ -17,10 +17,12 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
         public static final int fade_in=0x7f040006;
         public static final int fade_out=0x7f040007;
+        public static final int pocket_interpolator=0x7f040008;
     }
     public static final class array {
         public static final int gplus_colors=0x7f0e0001;
         public static final int locations=0x7f0e0000;
+        public static final int pocket_bar_colors=0x7f0e0002;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1002,16 +1004,25 @@ containing a value of this type.
         public static final int spb_default_reversed=0x7f080006;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f09000a;
+        public static final int abc_search_url_text_holo=0x7f090013;
         public static final int abc_search_url_text_normal=0x7f090000;
         public static final int abc_search_url_text_pressed=0x7f090002;
         public static final int abc_search_url_text_selected=0x7f090001;
         public static final int default_progress_bar_color=0x7f090004;
-        public static final int gplus_color_1=0x7f090006;
-        public static final int gplus_color_2=0x7f090007;
-        public static final int gplus_color_3=0x7f090008;
-        public static final int gplus_color_4=0x7f090009;
-        public static final int holo_dark_green=0x7f090005;
+        public static final int gplus_color_1=0x7f09000b;
+        public static final int gplus_color_2=0x7f09000c;
+        public static final int gplus_color_3=0x7f09000d;
+        public static final int gplus_color_4=0x7f09000e;
+        public static final int holo_blue_dark=0x7f090005;
+        public static final int holo_green_dark=0x7f090007;
+        public static final int holo_purple_dark=0x7f090008;
+        public static final int holo_red_dark=0x7f090009;
+        public static final int holo_yellow_dark=0x7f090006;
+        public static final int pocket_color_1=0x7f09000f;
+        public static final int pocket_color_2=0x7f090010;
+        public static final int pocket_color_3=0x7f090011;
+        public static final int pocket_color_4=0x7f090012;
+        public static final int re_green=0x7f09000a;
         public static final int spb_default_color=0x7f090003;
     }
     public static final class dimen {
@@ -1403,6 +1414,8 @@ containing a value of this type.
  spb theme start 
          */
         public static final int GNowProgressBar=0x7f0d0089;
+        public static final int GPlusProgressBar=0x7f0d008a;
+        public static final int PocketProgressBar=0x7f0d008b;
         public static final int SmoothProgressBar=0x7f0d0084;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
