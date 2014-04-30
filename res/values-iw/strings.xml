@@ -1,0 +1,16 @@
+<resources>
+
+	<string name="app_name">Re</string>
+	
+	<string name="menu_settings">הגדרות</string>
+	
+	
+	<string name="action_add">הוסף</string>
+	<string name="action_search">חפש</string>
+	
+	<string name="search_item_hint">הכנס תיאור או תאג</string>
+	
+	<string name="pull_to_refresh">משוך כדי לעדכן</string>
+	<string name="refreshing">מוריד מידע</string>
+	
+</resources>

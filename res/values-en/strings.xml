@@ -1,0 +1,17 @@
+<resources>
+
+	<string name="app_name">Re</string>
+	
+	<string name="menu_settings">Settings</string>
+	
+	<string name="IMAGES_CACHE_DIR_NAME">images_cache_reapp</string>
+	
+	<string name="action_add">Add</string>
+	<string name="action_search">Search</string>
+	
+	<string name="search_item_hint">Enter description or hash tag</string>
+	
+	<string name="pull_to_refresh">Pull To Refresh</string>
+	<string name="refreshing">Pull To Refresh</string>
+
+</resources>
