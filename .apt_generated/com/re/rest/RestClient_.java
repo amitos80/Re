@@ -5,6 +5,13 @@
 
 package com.re.rest;
 
+import java.util.Collections;
+import java.util.HashMap;
+import com.re.protocol.responses.GetItemsByLocationResponse;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
@@ -24,6 +31,22 @@ public class RestClient_
     @Override
     public RestTemplate getRestTemplate() {
         return restTemplate;
+    }
+
+    @Override
+    public void setRootUrl(String rootUrl) {
+        this.rootUrl = rootUrl;
+    }
+
+    @Override
+    public GetItemsByLocationResponse getItemsByLocation(long lat, long lon) {
+        HashMap<String, Object> urlVariables = new HashMap<String, Object>();
+        urlVariables.put("lat", lat);
+        urlVariables.put("lon", lon);
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.setAccept(Collections.singletonList(MediaType.parseMediaType("application/json")));
+        HttpEntity<Object> requestEntity = new HttpEntity<Object>(httpHeaders);
+        return restTemplate.exchange(rootUrl.concat("/items/list?lat={lat}&lon={lon}"), HttpMethod.GET, requestEntity, GetItemsByLocationResponse.class, urlVariables).getBody();
     }
 
 }

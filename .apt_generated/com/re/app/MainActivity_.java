@@ -5,22 +5,31 @@
 
 package com.re.app;
 
+import java.util.ArrayList;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.ListView;
+import com.googlecode.androidannotations.api.BackgroundExecutor;
 import com.googlecode.androidannotations.api.SdkVersionHelper;
+import com.re.adapters.ItemListAdapter_;
 import com.re.app.R.id;
 import com.re.app.R.layout;
+import com.re.beans.Item;
+import com.re.protocol.responses.GetItemsByLocationResponse;
 import uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout;
 
 public final class MainActivity_
     extends MainActivity
 {
 
+    private Handler handler_ = new Handler();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,10 +40,14 @@ public final class MainActivity_
 
     private void init_(Bundle savedInstanceState) {
         application = ((MyApplication) this.getApplication());
+        adapter = ItemListAdapter_.getInstance_(this);
+        restoreSavedInstanceState_(savedInstanceState);
     }
 
     private void afterSetContentView_() {
         pullToRefreshLayout = ((PullToRefreshLayout) findViewById(id.pull_to_refresh_layout));
+        listView = ((ListView) findViewById(id.list_view));
+        ((ItemListAdapter_) adapter).afterSetContentView_();
         afterViews();
     }
 
@@ -66,6 +79,55 @@ public final class MainActivity_
 
     public static MainActivity_.IntentBuilder_ intent(Context context) {
         return new MainActivity_.IntentBuilder_(context);
+    }
+
+    @Override
+    public void updateList(final ArrayList<Item> items) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                try {
+                    MainActivity_.super.updateList(items);
+                } catch (RuntimeException e) {
+                    Log.e("MainActivity_", "A runtime exception was thrown while executing code in a runnable", e);
+                }
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void fetchListFromServer(final long lat, final long lon) {
+        BackgroundExecutor.execute(new Runnable() {
+
+
+            @Override
+            public void run() {
+                try {
+                    MainActivity_.super.fetchListFromServer(lat, lon);
+                } catch (RuntimeException e) {
+                    Log.e("MainActivity_", "A runtime exception was thrown while executing code in a runnable", e);
+                }
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle bundle) {
+        super.onSaveInstanceState(bundle);
+        bundle.putSerializable("getItemsByLocationResponse", getItemsByLocationResponse);
+    }
+
+    private void restoreSavedInstanceState_(Bundle savedInstanceState) {
+        if (savedInstanceState == null) {
+            return ;
+        }
+        getItemsByLocationResponse = ((GetItemsByLocationResponse) savedInstanceState.getSerializable("getItemsByLocationResponse"));
     }
 
     public static class IntentBuilder_ {

@@ -29,12 +29,12 @@ public final class R {
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f01000b;
+        public static final int actionBarDivider=0x7f01000c;
         /**  Custom item state list drawable background for action bar items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f01000c;
+        public static final int actionBarItemBackground=0x7f01000d;
         /**  Size of the Action Bar, including the contextual
          bar used to present Action Modes. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -46,7 +46,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionBarSize=0x7f01000a;
+        public static final int actionBarSize=0x7f01000b;
         /**  Reference to a theme that should be used to inflate widgets
          and layouts destined for the action bar. Most of the time
          this will be a reference to the current theme, but when
@@ -57,25 +57,25 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f010008;
+        public static final int actionBarSplitStyle=0x7f010009;
         /**  Reference to a style for the Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f010007;
+        public static final int actionBarStyle=0x7f010008;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010004;
+        public static final int actionBarTabBarStyle=0x7f010005;
         /**  Default style for tabs within an action bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f010003;
+        public static final int actionBarTabStyle=0x7f010004;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010005;
+        public static final int actionBarTabTextStyle=0x7f010006;
         /**  Reference to a theme that should be used to inflate widgets
          and layouts destined for the action bar. Most of the time
          this will be a reference to the current theme, but when
@@ -86,104 +86,104 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010009;
+        public static final int actionBarWidgetTheme=0x7f01000a;
         /**  Default action button style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f010012;
+        public static final int actionButtonStyle=0x7f010013;
         /**  Default ActionBar dropdown style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f010043;
+        public static final int actionDropDownStyle=0x7f010044;
         /**  An optional layout to be used as an action view.
              See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f01004a;
+        public static final int actionLayout=0x7f01004b;
         /**  TextAppearance style that will be applied to text that
          appears within action menu items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f01000d;
+        public static final int actionMenuTextAppearance=0x7f01000e;
         /**  Color for text that appears within action menu items. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f01000e;
+        public static final int actionMenuTextColor=0x7f01000f;
         /**  Background drawable to use for action mode UI 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010038;
+        public static final int actionModeBackground=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f010037;
+        public static final int actionModeCloseButtonStyle=0x7f010038;
         /**  Drawable to use for the close action mode button 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f01003a;
+        public static final int actionModeCloseDrawable=0x7f01003b;
         /**  Drawable to use for the Copy action button in Contextual Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f01003c;
+        public static final int actionModeCopyDrawable=0x7f01003d;
         /**  Drawable to use for the Cut action button in Contextual Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f01003b;
+        public static final int actionModeCutDrawable=0x7f01003c;
         /**  Drawable to use for the Find action button in WebView selection action modes 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010040;
+        public static final int actionModeFindDrawable=0x7f010041;
         /**  Drawable to use for the Paste action button in Contextual Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f01003d;
+        public static final int actionModePasteDrawable=0x7f01003e;
         /**  PopupWindow style to use for action modes when showing as a window overlay. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010042;
+        public static final int actionModePopupWindowStyle=0x7f010043;
         /**  Drawable to use for the Select all action button in Contextual Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f01003e;
+        public static final int actionModeSelectAllDrawable=0x7f01003f;
         /**  Drawable to use for the Share action button in WebView selection action modes 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f01003f;
+        public static final int actionModeShareDrawable=0x7f010040;
         /**  Background drawable to use for action mode UI in the lower split bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010039;
+        public static final int actionModeSplitBackground=0x7f01003a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010036;
+        public static final int actionModeStyle=0x7f010037;
         /**  Drawable to use for the Web Search action button in WebView selection action modes 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010041;
+        public static final int actionModeWebSearchDrawable=0x7f010042;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f010006;
+        public static final int actionOverflowButtonStyle=0x7f010007;
         /**  The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.
              See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
@@ -195,7 +195,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f01004c;
+        public static final int actionProviderClass=0x7f01004d;
         /**  The name of an optional View class to instantiate and use as an
              action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
@@ -206,48 +206,48 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f01004b;
+        public static final int actionViewClass=0x7f01004c;
         /**  Default ActivityChooserView style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010068;
+        public static final int activityChooserViewStyle=0x7f010069;
         /**  Specifies a background drawable for the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int background=0x7f01002b;
+        public static final int background=0x7f01002c;
         /**  Specifies a background drawable for the bottom component of a split action bar. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f01002d;
+        public static final int backgroundSplit=0x7f01002e;
         /**  Specifies a background drawable for a second stacked row of the action bar. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f01002c;
+        public static final int backgroundStacked=0x7f01002d;
         /**  A style that may be applied to Buttons placed within a
          LinearLayout with the style buttonBarStyle to form a button bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f010014;
+        public static final int buttonBarButtonStyle=0x7f010015;
         /**  A style that may be applied to horizontal LinearLayouts
          to form a button bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f010013;
+        public static final int buttonBarStyle=0x7f010014;
         /**  Specifies a layout for custom navigation. Overrides navigationMode. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f01002e;
+        public static final int customNavigationLayout=0x7f01002f;
         /**  Whether this spinner should mark child views as enabled/disabled when
              the spinner itself is enabled/disabled. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -257,7 +257,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int disableChildrenWhenDisabled=0x7f010050;
+        public static final int disableChildrenWhenDisabled=0x7f010051;
         /**  Options affecting how the action bar is displayed. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -273,17 +273,17 @@ containing a value of this type.
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f010024;
+        public static final int displayOptions=0x7f010025;
         /**  Specifies the drawable used for item dividers. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f01002a;
+        public static final int divider=0x7f01002b;
         /**  A drawable that may be used as a horizontal divider between visual elements. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010017;
+        public static final int dividerHorizontal=0x7f010018;
         /**  Size of padding on either end of a divider. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -294,17 +294,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f010052;
+        public static final int dividerPadding=0x7f010053;
         /**  A drawable that may be used as a vertical divider between visual elements. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010016;
+        public static final int dividerVertical=0x7f010017;
         /**  ListPopupWindow comaptibility 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f01001d;
+        public static final int dropDownListViewStyle=0x7f01001e;
         /**  The preferred item height for dropdown lists. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -315,7 +315,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f010044;
+        public static final int dropdownListPreferredItemHeight=0x7f010045;
         /**  The drawable to show in the button for expanding the activities overflow popup.
              <strong>Note:</strong> Clients would like to set this drawable
              as a clue about the action the chosen activity will perform. For
@@ -325,7 +325,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f010067;
+        public static final int expandActivityOverflowButtonDrawable=0x7f010068;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -335,22 +335,22 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int height=0x7f010022;
+        public static final int height=0x7f010023;
         /**  Specifies a drawable to use for the 'home as up' indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01000f;
+        public static final int homeAsUpIndicator=0x7f010010;
         /**  Specifies a layout to use for the "home" section of the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f01002f;
+        public static final int homeLayout=0x7f010030;
         /**  Specifies the drawable used for the application icon. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f010028;
+        public static final int icon=0x7f010029;
         /**  The default state of the SearchView. If true, it will be iconified when not in
              use and expanded when clicked. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -360,12 +360,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010056;
+        public static final int iconifiedByDefault=0x7f010057;
         /**  Specifies a style resource to use for an indeterminate progress spinner. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f010031;
+        public static final int indeterminateProgressStyle=0x7f010032;
         /**  The maximal number of items initially shown in the activity list. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -374,7 +374,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f010066;
+        public static final int initialActivityCount=0x7f010067;
         /**  Specifies whether the theme is light, otherwise it is dark. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -383,7 +383,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int isLightTheme=0x7f010055;
+        public static final int isLightTheme=0x7f010056;
         /**  Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -395,16 +395,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f010033;
+        public static final int itemPadding=0x7f010034;
         /**  Drawable used as a background for selected list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f010048;
+        public static final int listChoiceBackgroundIndicator=0x7f010049;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f01001e;
+        public static final int listPopupWindowStyle=0x7f01001f;
         /**  The preferred list item height. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -415,7 +415,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f010018;
+        public static final int listPreferredItemHeight=0x7f010019;
         /**  A larger, more robust list item height. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -426,7 +426,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f01001a;
+        public static final int listPreferredItemHeightLarge=0x7f01001b;
         /**  A smaller, sleeker list item height. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -437,7 +437,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010019;
+        public static final int listPreferredItemHeightSmall=0x7f01001a;
         /**  The preferred padding along the left edge of list items. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -448,7 +448,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f01001b;
+        public static final int listPreferredItemPaddingLeft=0x7f01001c;
         /**  The preferred padding along the right edge of list items. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -459,12 +459,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f01001c;
+        public static final int listPreferredItemPaddingRight=0x7f01001d;
         /**  Specifies the drawable used for the application logo. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int logo=0x7f010029;
+        public static final int logo=0x7f01002a;
         /**  The type of navigation to use. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -477,7 +477,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f010023;
+        public static final int navigationMode=0x7f010024;
         /**  Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -488,7 +488,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010035;
+        public static final int paddingEnd=0x7f010036;
         /**  Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -499,12 +499,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f010034;
+        public static final int paddingStart=0x7f010035;
         /**  Default Panel Menu style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f010047;
+        public static final int panelMenuListTheme=0x7f010048;
         /**  Default Panel Menu width. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -515,19 +515,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f010046;
+        public static final int panelMenuListWidth=0x7f010047;
         /**  Default PopupMenu style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f010045;
+        public static final int popupMenuStyle=0x7f010046;
         /**  Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown". This layout must contain a TextView with the id
              {@code @android:id/text1} to be populated with the prompt text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupPromptView=0x7f01004f;
+        public static final int popupPromptView=0x7f010050;
         /**  Specifies the horizontal padding on either end for an embedded progress bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -538,24 +538,24 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f010032;
+        public static final int progressBarPadding=0x7f010033;
         /**  Specifies a style resource to use for an embedded progress bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f010030;
+        public static final int progressBarStyle=0x7f010031;
         /**  The prompt to display when the spinner's dialog is shown. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int prompt=0x7f01004d;
+        public static final int prompt=0x7f01004e;
         /**  A drawable to use as the background of the Header View 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderBackground=0x7f01007b;
+        public static final int ptrHeaderBackground=0x7f01007c;
         /**  The height of the Header View 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -563,24 +563,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static final int ptrHeaderHeight=0x7f01007c;
+        public static final int ptrHeaderHeight=0x7f01007d;
         /**  The attribute to set in your Application/Activity theme to reference your custom theme 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrHeaderStyle=0x7f01007a;
+        public static final int ptrHeaderStyle=0x7f01007b;
         /**  The Text Appearance of the Header View's Title text 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrHeaderTitleTextAppearance=0x7f01007d;
+        public static final int ptrHeaderTitleTextAppearance=0x7f01007e;
         /**  The color that the Progress Bar should be tinted with 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrProgressBarColor=0x7f01007e;
+        public static final int ptrProgressBarColor=0x7f01007f;
         /**  The height of the Progress Bar 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -588,7 +588,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
          */
-        public static final int ptrProgressBarHeight=0x7f010080;
+        public static final int ptrProgressBarHeight=0x7f010081;
         /**  The style of the Progress Bar 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -600,36 +600,36 @@ in (inches), mm (millimeters).
 <tr><td><code>outside</code></td><td>0x1</td><td></td></tr>
 </table>
          */
-        public static final int ptrProgressBarStyle=0x7f01007f;
+        public static final int ptrProgressBarStyle=0x7f010080;
         /**  Text to show to prompt the user is pull (or keep pulling) 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int ptrPullText=0x7f010081;
+        public static final int ptrPullText=0x7f010082;
         /**  Text to show to tell the user that a refresh is currently in progress 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int ptrRefreshingText=0x7f010082;
+        public static final int ptrRefreshingText=0x7f010083;
         /**  Text to show to tell the user has scrolled enough to refresh 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int ptrReleaseText=0x7f010083;
+        public static final int ptrReleaseText=0x7f010084;
         /** indeterminate progressbar style
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrSmoothProgressBarStyle=0x7f010084;
+        public static final int ptrSmoothProgressBarStyle=0x7f010085;
         /**  The class to use as a View's View Delegate. Can be relative path from app's package name 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int ptrViewDelegateClass=0x7f010079;
+        public static final int ptrViewDelegateClass=0x7f01007a;
         /**  An optional query hint string to be displayed in the empty query field. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -638,12 +638,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010057;
+        public static final int queryHint=0x7f010058;
         /**  SearchView dropdown background 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchDropdownBackground=0x7f010058;
+        public static final int searchDropdownBackground=0x7f010059;
         /**  The list item height for search results. @hide 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -654,59 +654,59 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int searchResultListItemHeight=0x7f010061;
+        public static final int searchResultListItemHeight=0x7f010062;
         /**  SearchView AutoCompleteTextView style 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewAutoCompleteTextView=0x7f010065;
+        public static final int searchViewAutoCompleteTextView=0x7f010066;
         /**  SearchView close button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewCloseIcon=0x7f010059;
+        public static final int searchViewCloseIcon=0x7f01005a;
         /**  SearchView query refinement icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewEditQuery=0x7f01005d;
+        public static final int searchViewEditQuery=0x7f01005e;
         /**  SearchView query refinement icon background 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewEditQueryBackground=0x7f01005e;
+        public static final int searchViewEditQueryBackground=0x7f01005f;
         /**  SearchView Go button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewGoIcon=0x7f01005a;
+        public static final int searchViewGoIcon=0x7f01005b;
         /**  SearchView Search icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewSearchIcon=0x7f01005b;
+        public static final int searchViewSearchIcon=0x7f01005c;
         /**  SearchView text field background for the left section 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewTextField=0x7f01005f;
+        public static final int searchViewTextField=0x7f010060;
         /**  SearchView text field background for the right section 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewTextFieldRight=0x7f010060;
+        public static final int searchViewTextFieldRight=0x7f010061;
         /**  SearchView Voice button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewVoiceIcon=0x7f01005c;
+        public static final int searchViewVoiceIcon=0x7f01005d;
         /**  A style that may be applied to buttons or other selectable items
          that should react to pressed and focus states, but that do not
          have a clear visual border along the edges. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f010015;
+        public static final int selectableItemBackground=0x7f010016;
         /**  How this item should display in the Action Bar, if present. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -730,7 +730,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  larger segment of its container. </td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f010049;
+        public static final int showAsAction=0x7f01004a;
         /**  Setting for which dividers to show. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -744,15 +744,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010051;
+        public static final int showDividers=0x7f010052;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spbStyle=0x7f01006a;
+        public static final int spbStyle=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spb_background=0x7f010077;
+        public static final int spb_background=0x7f010078;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -761,11 +761,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_color=0x7f01006b;
+        public static final int spb_color=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spb_colors=0x7f010075;
+        public static final int spb_colors=0x7f010076;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -773,7 +773,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_generate_background_with_colors=0x7f010078;
+        public static final int spb_generate_background_with_colors=0x7f010079;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -786,7 +786,7 @@ containing a value of this type.
 <tr><td><code>spb_interpolator_decelerate</code></td><td>3</td><td></td></tr>
 </table>
          */
-        public static final int spb_interpolator=0x7f010072;
+        public static final int spb_interpolator=0x7f010073;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -794,7 +794,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_mirror_mode=0x7f010074;
+        public static final int spb_mirror_mode=0x7f010075;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -802,7 +802,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_progressiveStart_activated=0x7f010076;
+        public static final int spb_progressiveStart_activated=0x7f010077;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -810,7 +810,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_progressiveStart_speed=0x7f010070;
+        public static final int spb_progressiveStart_speed=0x7f010071;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -818,7 +818,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_progressiveStop_speed=0x7f010071;
+        public static final int spb_progressiveStop_speed=0x7f010072;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -826,7 +826,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_reversed=0x7f010073;
+        public static final int spb_reversed=0x7f010074;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -834,7 +834,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_sections_count=0x7f01006e;
+        public static final int spb_sections_count=0x7f01006f;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -842,7 +842,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_speed=0x7f01006f;
+        public static final int spb_speed=0x7f010070;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -852,7 +852,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_stroke_separator_length=0x7f01006d;
+        public static final int spb_stroke_separator_length=0x7f01006e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -862,12 +862,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spb_stroke_width=0x7f01006c;
+        public static final int spb_stroke_width=0x7f01006d;
         /**  Default Spinner style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f010054;
+        public static final int spinnerDropDownItemStyle=0x7f010055;
         /**  Display mode for spinner options. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -880,12 +880,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
                  anchored to the spinner widget itself. </td></tr>
 </table>
          */
-        public static final int spinnerMode=0x7f01004e;
+        public static final int spinnerMode=0x7f01004f;
         /**  Default Spinner style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f010053;
+        public static final int spinnerStyle=0x7f010054;
         /**  Specifies subtitle text used for navigationMode="normal" 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -894,55 +894,55 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f010025;
+        public static final int subtitle=0x7f010026;
         /**  Specifies a style to use for subtitle text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f010027;
+        public static final int subtitleTextStyle=0x7f010028;
         /**  Present the text in ALL CAPS. This may use a small-caps form when available. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f010069;
+        public static final int textAllCaps=0x7f01006a;
         /**  Text color, typeface, size, and style for the text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f010010;
+        public static final int textAppearanceLargePopupMenu=0x7f010011;
         /**  The preferred TextAppearance for the primary text of list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f01001f;
+        public static final int textAppearanceListItem=0x7f010020;
         /**  The preferred TextAppearance for the primary text of small list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f010020;
+        public static final int textAppearanceListItemSmall=0x7f010021;
         /**  Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f010063;
+        public static final int textAppearanceSearchResultSubtitle=0x7f010064;
         /**  Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f010062;
+        public static final int textAppearanceSearchResultTitle=0x7f010063;
         /**  Text color, typeface, size, and style for small text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f010011;
+        public static final int textAppearanceSmallPopupMenu=0x7f010012;
         /**  Text color for urls in search suggestions, used by things like global search 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f010064;
+        public static final int textColorSearchUrl=0x7f010065;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -950,12 +950,44 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title=0x7f010021;
+        public static final int title=0x7f010022;
         /**  Specifies a style to use for title text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f010026;
+        public static final int titleTextStyle=0x7f010027;
+        /**  Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+         */
+        public static final int typeface=0x7f010000;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -963,7 +995,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f010000;
+        public static final int windowActionBar=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -971,7 +1003,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010001;
+        public static final int windowActionBarOverlay=0x7f010002;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -979,7 +1011,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowSplitActionBar=0x7f010002;
+        public static final int windowSplitActionBar=0x7f010003;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs_pre_jb=0x7f080000;
@@ -1004,26 +1036,28 @@ containing a value of this type.
         public static final int spb_default_reversed=0x7f080006;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f090013;
+        public static final int abc_search_url_text_holo=0x7f090015;
         public static final int abc_search_url_text_normal=0x7f090000;
         public static final int abc_search_url_text_pressed=0x7f090002;
         public static final int abc_search_url_text_selected=0x7f090001;
         public static final int default_progress_bar_color=0x7f090004;
-        public static final int gplus_color_1=0x7f09000b;
-        public static final int gplus_color_2=0x7f09000c;
-        public static final int gplus_color_3=0x7f09000d;
-        public static final int gplus_color_4=0x7f09000e;
-        public static final int holo_blue_dark=0x7f090005;
-        public static final int holo_green_dark=0x7f090007;
-        public static final int holo_purple_dark=0x7f090008;
-        public static final int holo_red_dark=0x7f090009;
-        public static final int holo_yellow_dark=0x7f090006;
-        public static final int pocket_color_1=0x7f09000f;
-        public static final int pocket_color_2=0x7f090010;
-        public static final int pocket_color_3=0x7f090011;
-        public static final int pocket_color_4=0x7f090012;
-        public static final int re_green=0x7f09000a;
+        public static final int gplus_color_1=0x7f09000d;
+        public static final int gplus_color_2=0x7f09000e;
+        public static final int gplus_color_3=0x7f09000f;
+        public static final int gplus_color_4=0x7f090010;
+        public static final int holo_blue_dark=0x7f090007;
+        public static final int holo_green_dark=0x7f090009;
+        public static final int holo_purple_dark=0x7f09000a;
+        public static final int holo_red_dark=0x7f09000b;
+        public static final int holo_yellow_dark=0x7f090008;
+        public static final int pocket_color_1=0x7f090011;
+        public static final int pocket_color_2=0x7f090012;
+        public static final int pocket_color_3=0x7f090013;
+        public static final int pocket_color_4=0x7f090014;
+        public static final int re_green=0x7f09000c;
         public static final int spb_default_color=0x7f090003;
+        public static final int text_dark=0x7f090005;
+        public static final int text_light=0x7f090006;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1208,81 +1242,107 @@ containing a value of this type.
         public static final int ic_menu_search=0x7f02005b;
     }
     public static final class id {
-        public static final int action_add=0x7f070049;
-        public static final int action_bar=0x7f070025;
-        public static final int action_bar_activity_content=0x7f070015;
-        public static final int action_bar_container=0x7f070024;
-        public static final int action_bar_overlay_layout=0x7f070028;
-        public static final int action_bar_root=0x7f070023;
-        public static final int action_bar_subtitle=0x7f07002c;
-        public static final int action_bar_title=0x7f07002b;
-        public static final int action_context_bar=0x7f070026;
-        public static final int action_menu_divider=0x7f070016;
-        public static final int action_menu_presenter=0x7f070017;
-        public static final int action_mode_close_button=0x7f07002d;
-        public static final int action_refresh=0x7f07004a;
-        public static final int action_search=0x7f070048;
-        public static final int activity_chooser_view_content=0x7f07002e;
-        public static final int always=0x7f07000b;
-        public static final int beginning=0x7f070011;
-        public static final int checkbox=0x7f070036;
-        public static final int collapseActionView=0x7f07000d;
-        public static final int default_activity_button=0x7f070031;
-        public static final int dialog=0x7f07000e;
-        public static final int disableHome=0x7f070008;
-        public static final int dropdown=0x7f07000f;
-        public static final int edit_query=0x7f070039;
-        public static final int end=0x7f070013;
-        public static final int expand_activities_button=0x7f07002f;
-        public static final int expanded_menu=0x7f070035;
-        public static final int home=0x7f070014;
-        public static final int homeAsUp=0x7f070005;
-        public static final int icon=0x7f070033;
-        public static final int ifRoom=0x7f07000a;
-        public static final int image=0x7f070030;
-        public static final int inside=0x7f07001e;
-        public static final int label_text=0x7f070047;
-        public static final int listMode=0x7f070001;
-        public static final int list_item=0x7f070032;
-        public static final int list_view=0x7f070046;
-        public static final int middle=0x7f070012;
-        public static final int never=0x7f070009;
-        public static final int none=0x7f070010;
-        public static final int normal=0x7f070000;
-        public static final int outside=0x7f07001f;
-        public static final int progress_circular=0x7f070018;
-        public static final int progress_horizontal=0x7f070019;
-        public static final int ptr_content=0x7f070020;
-        public static final int ptr_progress=0x7f070022;
-        public static final int ptr_text=0x7f070021;
-        public static final int pull_to_refresh_layout=0x7f070045;
-        public static final int radio=0x7f070038;
-        public static final int search_badge=0x7f07003b;
-        public static final int search_bar=0x7f07003a;
-        public static final int search_button=0x7f07003c;
-        public static final int search_close_btn=0x7f070041;
-        public static final int search_edit_frame=0x7f07003d;
-        public static final int search_go_btn=0x7f070043;
-        public static final int search_mag_icon=0x7f07003e;
-        public static final int search_plate=0x7f07003f;
-        public static final int search_src_text=0x7f070040;
-        public static final int search_voice_btn=0x7f070044;
-        public static final int shortcut=0x7f070037;
-        public static final int showCustom=0x7f070007;
-        public static final int showHome=0x7f070004;
-        public static final int showTitle=0x7f070006;
-        public static final int spb_interpolator_accelerate=0x7f07001a;
-        public static final int spb_interpolator_acceleratedecelerate=0x7f07001c;
-        public static final int spb_interpolator_decelerate=0x7f07001d;
-        public static final int spb_interpolator_linear=0x7f07001b;
-        public static final int split_action_bar=0x7f070027;
-        public static final int submit_area=0x7f070042;
-        public static final int tabMode=0x7f070002;
-        public static final int title=0x7f070034;
-        public static final int top_action_bar=0x7f070029;
-        public static final int up=0x7f07002a;
-        public static final int useLogo=0x7f070003;
-        public static final int withText=0x7f07000c;
+        public static final int action_add=0x7f070063;
+        public static final int action_bar=0x7f07003b;
+        public static final int action_bar_activity_content=0x7f07002b;
+        public static final int action_bar_container=0x7f07003a;
+        public static final int action_bar_overlay_layout=0x7f07003e;
+        public static final int action_bar_root=0x7f070039;
+        public static final int action_bar_subtitle=0x7f070042;
+        public static final int action_bar_title=0x7f070041;
+        public static final int action_context_bar=0x7f07003c;
+        public static final int action_menu_divider=0x7f07002c;
+        public static final int action_menu_presenter=0x7f07002d;
+        public static final int action_mode_close_button=0x7f070043;
+        public static final int action_refresh=0x7f070064;
+        public static final int action_search=0x7f070062;
+        public static final int activity_chooser_view_content=0x7f070044;
+        public static final int always=0x7f070021;
+        public static final int beginning=0x7f070027;
+        public static final int checkbox=0x7f07004c;
+        public static final int collapseActionView=0x7f070023;
+        public static final int date_created=0x7f070060;
+        public static final int default_activity_button=0x7f070047;
+        public static final int dialog=0x7f070024;
+        public static final int disableHome=0x7f07001e;
+        public static final int distance=0x7f070061;
+        public static final int dropdown=0x7f070025;
+        public static final int edit_query=0x7f07004f;
+        public static final int end=0x7f070029;
+        public static final int expand_activities_button=0x7f070045;
+        public static final int expanded_menu=0x7f07004b;
+        public static final int home=0x7f07002a;
+        public static final int homeAsUp=0x7f07001b;
+        public static final int icon=0x7f070049;
+        public static final int ifRoom=0x7f070020;
+        public static final int image=0x7f070046;
+        public static final int inside=0x7f070034;
+        public static final int label_text=0x7f07005d;
+        public static final int listMode=0x7f070017;
+        public static final int list_item=0x7f070048;
+        public static final int list_view=0x7f07005c;
+        public static final int looks=0x7f07005e;
+        public static final int middle=0x7f070028;
+        public static final int never=0x7f07001f;
+        public static final int none=0x7f070026;
+        public static final int normal=0x7f070016;
+        public static final int outside=0x7f070035;
+        public static final int progress_circular=0x7f07002e;
+        public static final int progress_horizontal=0x7f07002f;
+        public static final int ptr_content=0x7f070036;
+        public static final int ptr_progress=0x7f070038;
+        public static final int ptr_text=0x7f070037;
+        public static final int pull_to_refresh_layout=0x7f07005b;
+        public static final int radio=0x7f07004e;
+        public static final int roboto_black=0x7f07000a;
+        public static final int roboto_black_italic=0x7f07000b;
+        public static final int roboto_bold=0x7f070008;
+        public static final int roboto_bold_italic=0x7f070009;
+        public static final int roboto_condensed_bold=0x7f070010;
+        public static final int roboto_condensed_bold_italic=0x7f070011;
+        public static final int roboto_condensed_italic=0x7f07000f;
+        public static final int roboto_condensed_light=0x7f07000c;
+        public static final int roboto_condensed_light_italic=0x7f07000d;
+        public static final int roboto_condensed_regular=0x7f07000e;
+        public static final int roboto_italic=0x7f070005;
+        public static final int roboto_light=0x7f070002;
+        public static final int roboto_light_italic=0x7f070003;
+        public static final int roboto_medium=0x7f070006;
+        public static final int roboto_medium_italic=0x7f070007;
+        public static final int roboto_regular=0x7f070004;
+        public static final int roboto_slab_bold=0x7f070015;
+        public static final int roboto_slab_light=0x7f070013;
+        public static final int roboto_slab_regular=0x7f070014;
+        public static final int roboto_slab_thin=0x7f070012;
+        public static final int roboto_thin=0x7f070000;
+        public static final int roboto_thin_italic=0x7f070001;
+        public static final int search_badge=0x7f070051;
+        public static final int search_bar=0x7f070050;
+        public static final int search_button=0x7f070052;
+        public static final int search_close_btn=0x7f070057;
+        public static final int search_edit_frame=0x7f070053;
+        public static final int search_go_btn=0x7f070059;
+        public static final int search_mag_icon=0x7f070054;
+        public static final int search_plate=0x7f070055;
+        public static final int search_src_text=0x7f070056;
+        public static final int search_voice_btn=0x7f07005a;
+        public static final int shortcut=0x7f07004d;
+        public static final int showCustom=0x7f07001d;
+        public static final int showHome=0x7f07001a;
+        public static final int showTitle=0x7f07001c;
+        public static final int spb_interpolator_accelerate=0x7f070030;
+        public static final int spb_interpolator_acceleratedecelerate=0x7f070032;
+        public static final int spb_interpolator_decelerate=0x7f070033;
+        public static final int spb_interpolator_linear=0x7f070031;
+        public static final int split_action_bar=0x7f07003d;
+        public static final int submit_area=0x7f070058;
+        public static final int tabMode=0x7f070018;
+        public static final int title=0x7f07004a;
+        public static final int top_action_bar=0x7f07003f;
+        public static final int up=0x7f070040;
+        public static final int usability=0x7f07005f;
+        public static final int useLogo=0x7f070019;
+        public static final int withText=0x7f070022;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1342,6 +1402,7 @@ containing a value of this type.
         public static final int default_header=0x7f03001b;
         public static final int fragment_sample=0x7f03001c;
         public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int view_item_row=0x7f03001e;
     }
     public static final class menu {
         public static final int activity_main=0x7f0f0000;
@@ -1670,11 +1731,11 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024,
-            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
-            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c,
-            0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030,
-            0x7f010031, 0x7f010032, 0x7f010033
+            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
+            0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029,
+            0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d,
+            0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031,
+            0x7f010032, 0x7f010033, 0x7f010034
         };
         /**
           <p>
@@ -1991,7 +2052,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionBarWindow_windowSplitActionBar
          */
         public static final int[] ActionBarWindow = {
-            0x7f010000, 0x7f010001, 0x7f010002
+            0x7f010001, 0x7f010002, 0x7f010003
         };
         /**
           <p>This symbol is the offset where the {@link com.re.app.R.attr#windowActionBar}
@@ -2078,8 +2139,8 @@ containing a value of this type.
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f010022, 0x7f010026, 0x7f010027, 0x7f01002b,
-            0x7f01002d
+            0x7f010023, 0x7f010027, 0x7f010028, 0x7f01002c,
+            0x7f01002e
         };
         /**
           <p>
@@ -2162,7 +2223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f010066, 0x7f010067
+            0x7f010067, 0x7f010068
         };
         /**
           <p>
@@ -2208,7 +2269,7 @@ containing a value of this type.
            @see #CompatTextView_textAllCaps
          */
         public static final int[] CompatTextView = {
-            0x7f010069
+            0x7f01006a
         };
         /**
           <p>
@@ -2238,7 +2299,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #LinearLayoutICS_showDividers
          */
         public static final int[] LinearLayoutICS = {
-            0x7f01002a, 0x7f010051, 0x7f010052
+            0x7f01002b, 0x7f010052, 0x7f010053
         };
         /**
           <p>
@@ -2420,8 +2481,8 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f010049, 0x7f01004a, 0x7f01004b,
-            0x7f01004c
+            0x0101026f, 0x7f01004a, 0x7f01004b, 0x7f01004c,
+            0x7f01004d
         };
         /**
           <p>
@@ -2758,9 +2819,9 @@ containing a value of this type.
            @see #PullToRefreshHeader_ptrSmoothProgressBarStyle
          */
         public static final int[] PullToRefreshHeader = {
-            0x7f01007b, 0x7f01007c, 0x7f01007d, 0x7f01007e,
-            0x7f01007f, 0x7f010080, 0x7f010081, 0x7f010082,
-            0x7f010083, 0x7f010084
+            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
+            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
+            0x7f010084, 0x7f010085
         };
         /**
           <p>
@@ -2913,7 +2974,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #PullToRefreshView_ptrViewDelegateClass
          */
         public static final int[] PullToRefreshView = {
-            0x7f010079
+            0x7f01007a
         };
         /**
           <p>
@@ -2928,6 +2989,786 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.re.app:ptrViewDelegateClass
         */
         public static final int PullToRefreshView_ptrViewDelegateClass = 0;
+        /** Attributes that can be used with a RobotoAutoCompleteTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoAutoCompleteTextView_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoAutoCompleteTextView_typeface
+         */
+        public static final int[] RobotoAutoCompleteTextView = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoAutoCompleteTextView_typeface = 0;
+        /** Attributes that can be used with a RobotoButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoButton_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoButton_typeface
+         */
+        public static final int[] RobotoButton = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoButton_typeface = 0;
+        /** Attributes that can be used with a RobotoCheckBox.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoCheckBox_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoCheckBox_typeface
+         */
+        public static final int[] RobotoCheckBox = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoCheckBox_typeface = 0;
+        /** Attributes that can be used with a RobotoCheckedTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoCheckedTextView_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoCheckedTextView_typeface
+         */
+        public static final int[] RobotoCheckedTextView = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoCheckedTextView_typeface = 0;
+        /** Attributes that can be used with a RobotoChronometer.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoChronometer_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoChronometer_typeface
+         */
+        public static final int[] RobotoChronometer = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoChronometer_typeface = 0;
+        /** Attributes that can be used with a RobotoCompoundButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoCompoundButton_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoCompoundButton_typeface
+         */
+        public static final int[] RobotoCompoundButton = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoCompoundButton_typeface = 0;
+        /** Attributes that can be used with a RobotoDigitalClock.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoDigitalClock_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoDigitalClock_typeface
+         */
+        public static final int[] RobotoDigitalClock = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoDigitalClock_typeface = 0;
+        /** Attributes that can be used with a RobotoEditText.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoEditText_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoEditText_typeface
+         */
+        public static final int[] RobotoEditText = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoEditText_typeface = 0;
+        /** Attributes that can be used with a RobotoExtractEditText.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoExtractEditText_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoExtractEditText_typeface
+         */
+        public static final int[] RobotoExtractEditText = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoExtractEditText_typeface = 0;
+        /** Attributes that can be used with a RobotoMultiAutoCompleteTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoMultiAutoCompleteTextView_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoMultiAutoCompleteTextView_typeface
+         */
+        public static final int[] RobotoMultiAutoCompleteTextView = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoMultiAutoCompleteTextView_typeface = 0;
+        /** Attributes that can be used with a RobotoRadioButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoRadioButton_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoRadioButton_typeface
+         */
+        public static final int[] RobotoRadioButton = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoRadioButton_typeface = 0;
+        /** Attributes that can be used with a RobotoSwitch.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoSwitch_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoSwitch_typeface
+         */
+        public static final int[] RobotoSwitch = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoSwitch_typeface = 0;
+        /** Attributes that can be used with a RobotoTextClock.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoTextClock_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoTextClock_typeface
+         */
+        public static final int[] RobotoTextClock = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoTextClock_typeface = 0;
+        /** Attributes that can be used with a RobotoTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoTextView_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoTextView_typeface
+         */
+        public static final int[] RobotoTextView = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoTextView_typeface = 0;
+        /** Attributes that can be used with a RobotoToggleButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RobotoToggleButton_typeface com.re.app:typeface}</code></td><td> Changing the attribute must be reflected in the com.</td></tr>
+           </table>
+           @see #RobotoToggleButton_typeface
+         */
+        public static final int[] RobotoToggleButton = {
+            0x7f010000
+        };
+        /**
+          <p>
+          @attr description
+           Changing the attribute must be reflected in the com.devspark.robototextview.RobotoTypefaceManager 
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>roboto_thin</code></td><td>0</td><td></td></tr>
+<tr><td><code>roboto_thin_italic</code></td><td>1</td><td></td></tr>
+<tr><td><code>roboto_light</code></td><td>2</td><td></td></tr>
+<tr><td><code>roboto_light_italic</code></td><td>3</td><td></td></tr>
+<tr><td><code>roboto_regular</code></td><td>4</td><td></td></tr>
+<tr><td><code>roboto_italic</code></td><td>5</td><td></td></tr>
+<tr><td><code>roboto_medium</code></td><td>6</td><td></td></tr>
+<tr><td><code>roboto_medium_italic</code></td><td>7</td><td></td></tr>
+<tr><td><code>roboto_bold</code></td><td>8</td><td></td></tr>
+<tr><td><code>roboto_bold_italic</code></td><td>9</td><td></td></tr>
+<tr><td><code>roboto_black</code></td><td>10</td><td></td></tr>
+<tr><td><code>roboto_black_italic</code></td><td>11</td><td></td></tr>
+<tr><td><code>roboto_condensed_light</code></td><td>12</td><td></td></tr>
+<tr><td><code>roboto_condensed_light_italic</code></td><td>13</td><td></td></tr>
+<tr><td><code>roboto_condensed_regular</code></td><td>14</td><td></td></tr>
+<tr><td><code>roboto_condensed_italic</code></td><td>15</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold</code></td><td>16</td><td></td></tr>
+<tr><td><code>roboto_condensed_bold_italic</code></td><td>17</td><td></td></tr>
+<tr><td><code>roboto_slab_thin</code></td><td>18</td><td></td></tr>
+<tr><td><code>roboto_slab_light</code></td><td>19</td><td></td></tr>
+<tr><td><code>roboto_slab_regular</code></td><td>20</td><td></td></tr>
+<tr><td><code>roboto_slab_bold</code></td><td>21</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.re.app:typeface
+        */
+        public static final int RobotoToggleButton_typeface = 0;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -2947,8 +3788,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SearchView_queryHint
          */
         public static final int[] SearchView = {
-            0x0101011f, 0x01010220, 0x01010264, 0x7f010056,
-            0x7f010057
+            0x0101011f, 0x01010220, 0x01010264, 0x7f010057,
+            0x7f010058
         };
         /**
           <p>
@@ -3049,10 +3890,10 @@ containing a value of this type.
            @see #SmoothProgressBar_spb_stroke_width
          */
         public static final int[] SmoothProgressBar = {
-            0x7f01006a, 0x7f01006b, 0x7f01006c, 0x7f01006d,
-            0x7f01006e, 0x7f01006f, 0x7f010070, 0x7f010071,
-            0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075,
-            0x7f010076, 0x7f010077, 0x7f010078
+            0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e,
+            0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072,
+            0x7f010073, 0x7f010074, 0x7f010075, 0x7f010076,
+            0x7f010077, 0x7f010078, 0x7f010079
         };
         /**
           <p>This symbol is the offset where the {@link com.re.app.R.attr#spbStyle}
@@ -3296,8 +4137,8 @@ containing a value of this type.
          */
         public static final int[] Spinner = {
             0x010100af, 0x01010175, 0x01010176, 0x01010262,
-            0x010102ac, 0x010102ad, 0x7f01004d, 0x7f01004e,
-            0x7f01004f, 0x7f010050
+            0x010102ac, 0x010102ad, 0x7f01004e, 0x7f01004f,
+            0x7f010050, 0x7f010051
         };
         /**
           <p>
@@ -3439,8 +4280,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_popupMenuStyle
          */
         public static final int[] Theme = {
-            0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046,
-            0x7f010047, 0x7f010048
+            0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047,
+            0x7f010048, 0x7f010049
         };
         /**
           <p>
@@ -3541,7 +4382,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #View_paddingStart
          */
         public static final int[] View = {
-            0x010100da, 0x7f010034, 0x7f010035
+            0x010100da, 0x7f010035, 0x7f010036
         };
         /**
           <p>

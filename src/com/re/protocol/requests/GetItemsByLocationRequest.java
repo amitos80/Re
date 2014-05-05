@@ -1,4 +1,4 @@
-package com.re.protocol;
+package com.re.protocol.requests;
 
 import java.io.Serializable;
 

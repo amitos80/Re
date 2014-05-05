@@ -1,6 +1,9 @@
 
 package com.re.app;
 
+
+import java.util.ArrayList;
+
 import uk.co.senab.actionbarpulltorefresh.extras.actionbarcompat.PullToRefreshLayout;
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.Options;
@@ -13,14 +16,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.support.v4.view.MenuItemCompat;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.googlecode.androidannotations.annotations.AfterViews;
 import com.googlecode.androidannotations.annotations.App;
+import com.googlecode.androidannotations.annotations.Background;
+import com.googlecode.androidannotations.annotations.Bean;
 import com.googlecode.androidannotations.annotations.EActivity;
+import com.googlecode.androidannotations.annotations.InstanceState;
 import com.googlecode.androidannotations.annotations.OptionsItem;
 import com.googlecode.androidannotations.annotations.OptionsMenu;
+import com.googlecode.androidannotations.annotations.UiThread;
 import com.googlecode.androidannotations.annotations.ViewById;
+import com.re.adapters.ItemListAdapter;
+import com.re.beans.Item;
+import com.re.protocol.responses.GetItemsByLocationResponse;
+import com.re.rest.RestAPI;
+import com.re.rest.RestClient;
+import com.re.util.Constants;
 
 
 
@@ -45,8 +59,45 @@ public class MainActivity extends ActionBarActivity {
 	private ActionBar actionBar;
     public MenuItem menuSearch;
     
+    @ViewById(R.id.list_view)
+    public ListView listView;
+    
+    @Bean
+    ItemListAdapter adapter;
+    
     @ViewById
     public PullToRefreshLayout pullToRefreshLayout;
+    
+    @InstanceState
+    GetItemsByLocationResponse getItemsByLocationResponse; 
+    
+    @Background
+    public void fetchListFromServer(long lat, long lon){
+    	try{
+    		getItemsByLocationResponse = fetchData(lat, lon);
+    		
+    		System.out.println("GET FROM SERVER: " + getItemsByLocationResponse.items.size() + " items");
+    		
+    		updateList(getItemsByLocationResponse.items);
+    	}catch(Exception e){
+    		e.printStackTrace();
+    	}
+    	
+    }
+    
+    public GetItemsByLocationResponse fetchData(long lat, long lon){
+    	RestClient restClient = RestAPI.getRestClient();
+    	restClient.setRootUrl(Constants.SERVER_ADDRESS);
+    	GetItemsByLocationResponse response = restClient.getItemsByLocation(lat, lon);
+    	return response;
+    }
+    
+    @UiThread
+    public void updateList(ArrayList<Item> items){
+    	
+    	adapter.setAdapterData(items);
+    	listView.setAdapter(adapter);
+    }
 	
 	
     @AfterViews
@@ -55,8 +106,8 @@ public class MainActivity extends ActionBarActivity {
     	
     	ActionBarPullToRefresh.from(this)
         .options(Options.create()
-                // Here we make the refresh scroll distance to 75% of the refreshable view's height
-                .scrollDistance(.75f)
+                // Here we make the refresh scroll distance to 65% of the refreshable view's height
+                .scrollDistance(.65f)
                 // Here we define a custom header layout which will be inflated and used
 //                .headerLayout(R.layout.customised_header)
                 // Here we define a custom header transformer which will alter the header
@@ -74,6 +125,10 @@ public class MainActivity extends ActionBarActivity {
 					}
 				})
                 .setup(pullToRefreshLayout);
+    	
+    	if(getItemsByLocationResponse == null){
+    		fetchListFromServer(0, 0);	
+    	}
     }
 
     @Override
